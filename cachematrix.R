@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
+
+## Creates a list of setters and getters for a matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) 
 {
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix())
 }
 
 
-## Write a short comment describing this function
+## Retrieves the inverse from cache or calculate the inverse of the matrix created through makeCacheMatrix()
 
 cacheSolve <- function(x, ...) 
 {
