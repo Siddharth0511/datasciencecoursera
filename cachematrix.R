@@ -1,5 +1,3 @@
-
-
 ## Creates a list of setters and getters for a matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) 
